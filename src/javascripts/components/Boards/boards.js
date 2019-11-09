@@ -1,0 +1,1 @@
+import boardData from '../../helpers/data/boardsData';
