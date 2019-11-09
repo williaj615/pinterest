@@ -1,0 +1,31 @@
+{ 
+     "board1": { 
+      "id": "board1",
+      "name": "Fall Fashion",
+      "uid": "3vkJYTFJBzRUfgQrFPx3mZ51wy03",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur faucibus massa sit amet purus mattis pellentesque.",
+      "isPrivate": false },
+
+      "board2": {
+        "id": "board2",
+        "name": "Vegetarian Recipes",
+        "uid": "3vkJYTFJBzRUfgQrFPx3mZ51wy03",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur faucibus massa sit amet purus mattis pellentesque.",
+        "isPrivate": false},
+    
+     "board3": {
+        "id": "board3",
+        "name": "Travel",
+        "uid": "3vkJYTFJBzRUfgQrFPx3mZ51wy03",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur faucibus massa sit amet purus mattis pellentesque.",
+        "isPrivate": true },
+    
+    "board4": {
+        "id": "board4",
+        "name": "Wishlist",
+        "uid": "3vkJYTFJBzRUfgQrFPx3mZ51wy03",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur faucibus massa sit amet purus mattis pellentesque.",
+        "isPrivate": true }
+
+}
+
