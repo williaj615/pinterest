@@ -1,6 +1,5 @@
 
-const getBoardsByUid = () => {
-
+const getAllBoards = () => {
 };
 
 export default { getBoardsByUid };
