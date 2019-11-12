@@ -8,14 +8,14 @@ const getAllBoards = () => new Promise((resolve, reject) => {
     .then((response) => {
       const demBoards = response.data;
       const boards = [];
-      Object.keys(demBoards).forEach((fbId) => {
-        demBoards[fbId].id = fbId;
-        boards.push(demBoards[fbId]);
+      Object.keys(demBoards).forEach((board) => {
+        boards.push(demBoards[board]);
       });
       resolve(boards);
-      console.log(boards);
+      // console.log(boards);
     })
     .catch((error) => reject(error));
 });
+
 
 export default { getAllBoards };

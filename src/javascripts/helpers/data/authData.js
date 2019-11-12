@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import userBoards from '../../components/Boards/boards';
 
 const authDiv = $('#auth');
 const urBoards = $('#boards-container');
@@ -13,6 +14,7 @@ const checkLoginStatus = () => {
       urBoards.removeClass('hide');
       logoutNavbar.removeClass('hide');
       authDiv.addClass('hide');
+      userBoards.getBoardsByUid();
     } else {
       // nobody logged in SHOW auth component
       urBoards.addClass('hide');
