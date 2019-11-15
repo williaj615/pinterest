@@ -1,3 +1,5 @@
+import './boardCards.scss';
+
 const printBoardCard = (board) => {
   let domString = '';
   if (board.id) {
